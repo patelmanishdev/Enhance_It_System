@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Products – ENHANCE IT SYSTEM</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="page-overlay"></div>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo"><div class="logo-hex">EIS</div>ENHANCE IT<span class="ac">SYSTEM</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html"     class="nav-link">Home</a></li>
+      <li><a href="about.html"    class="nav-link">About</a></li>
+      <li><a href="products.html" class="nav-link active">Products</a></li>
+      <li><a href="solutions.html"class="nav-link">Solutions</a></li>
+      <li><a href="contact.html"  class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" aria-label="Toggle theme"></button>
+      <a href="contact.html" class="btn-quote">Get Quote</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html"     class="nav-link">Home</a>
+  <a href="about.html"    class="nav-link">About Us</a>
+  <a href="products.html" class="nav-link active">Products</a>
+  <a href="solutions.html"class="nav-link">Solutions</a>
+  <a href="contact.html"  class="nav-link">Contact</a>
+  <div class="mobile-bottom">
+    <button class="theme-toggle"></button>
+    <span style="color:var(--muted);font-size:0.8rem">Toggle Theme</span>
+    <a href="contact.html" class="btn-quote" style="margin-left:auto">Get Quote</a>
+  </div>
+</div>
+
+<div class="page-wrapper">
+
+  <section class="page-hero">
+    <div class="hero-grid-bg"></div>
+    <div class="orb orb-1"></div>
+    <div class="container" style="position:relative;z-index:1;">
+      <div class="ph-breadcrumb"><a href="index.html">Home</a><span>/</span>Products</div>
+      <h1 class="ph-title">Our <span class="gradient-text">Products</span></h1>
+      <p class="ph-sub">Complete security hardware — from biometric devices and gates to detection systems and surveillance cameras.</p>
+    </div>
+  </section>
+
+  <section class="products-main">
+    <div class="container">
+
+      <!-- FILTER -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All Products</button>
+        <button class="filter-btn" data-filter="biometric">Biometric</button>
+        <button class="filter-btn" data-filter="gate">Gates &amp; Barriers</button>
+        <button class="filter-btn" data-filter="detection">Detection</button>
+        <button class="filter-btn" data-filter="surveillance">Surveillance</button>
+        <button class="filter-btn" data-filter="smart">Smart Locks</button>
+      </div>
+
+      <div class="prod-grid" id="prodGrid">
+
+        <!-- BIOMETRIC -->
+        <div class="prod-card reveal" data-cat="biometric">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/face-recognition.product.jpg" alt="TrueFace Series"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Face Recognition</span>
+            <h3>TrueFace Series</h3>
+            <p>Face + fingerprint + card + QR recognition. 2-yr warranty, PoE, WiFi, TCP/IP, IP65 rated.</p>
+          </div>
+        </div>
+
+        <div class="prod-card reveal" data-cat="biometric">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/Biometric.product.jpg" alt="Fingerprint Device"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Biometric</span>
+            <h3>Fingerprint, Card &amp; Password</h3>
+            <p>Multi-modal access device — fingerprint + RFID card + PIN for versatile authentication.</p>
+          </div>
+        </div>
+
+        <div class="prod-card reveal" data-cat="biometric">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/Hand_Held_Face_Recognition.product.jpg" alt="Handheld Face Recognition"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Portable</span>
+            <h3>Hand-Held Face Recognition</h3>
+            <p>GPS &amp; 4G-based portable face recognition device for field verification and mobile checkpoints.</p>
+          </div>
+        </div>
+
+        <div class="prod-card reveal" data-cat="biometric">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/IRIS_Recognition.product.jpg" alt="IRIS Recognition"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Iris</span>
+            <h3>IRIS Recognition System</h3>
+            <p>High-precision iris authentication for maximum-security environments — contactless and hygienic.</p>
+          </div>
+        </div>
+
+        <div class="prod-card reveal" data-cat="biometric">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/Network_&_Web_Controllers.product.jpg" alt="Network Controller"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Networking</span>
+            <h3>Network &amp; Web Controllers</h3>
+            <p>Centralized multi-door access control boards with web-based management interface.</p>
+          </div>
+        </div>
+
+        <div class="prod-card reveal" data-cat="biometric">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/Card_Readers.product.jpg" alt="Card Reader"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Access</span>
+            <h3>Card Readers</h3>
+            <p>RFID and proximity card readers compatible with major access control platforms and door controllers.</p>
+          </div>
+        </div>
+
+        <!-- SMART LOCKS -->
+        <div class="prod-card reveal" data-cat="smart">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/Smart_Door_Lock.product.jpg" alt="Smart Lock"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Smart Lock</span>
+            <h3>Smart Door Locks</h3>
+            <p>Keyless smart locks with app control, PIN, card and fingerprint modes for modern buildings.</p>
+          </div>
+        </div>
+
+        <div class="prod-card reveal" data-cat="smart">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/Fingerprint_&_Card_Access_Device.product.jpg" alt="Access Control"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Access Control</span>
+            <h3>Fingerprint &amp; Card Access Device</h3>
+            <p>Sleek wall-mount access control unit with dual authentication for office and industrial doors.</p>
+          </div>
+        </div>
+
+        <!-- GATES & BARRIERS -->
+        <div class="prod-card reveal" data-cat="gate">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/Tripod_Turnstile_Gates.product.jpg" alt="Turnstile Gate"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Turnstile</span>
+            <h3>Tripod Turnstile Gates</h3>
+            <p>Waist-high tri-arm turnstiles for controlled pedestrian flow in offices and transport hubs.</p>
+          </div>
+        </div>
+
+        <div class="prod-card reveal" data-cat="gate">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/Full_Hight_Turnstile_Gates.jpg" alt="Full Height Turnstile"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Perimeter</span>
+            <h3>Full Height Turnstile</h3>
+            <p>Floor-to-ceiling turnstile for maximum perimeter control in high-security zones and metro stations.</p>
+          </div>
+        </div>
+
+        <div class="prod-card reveal" data-cat="gate">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/Swing_Gates.product.jpg" alt="Swing Gate"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Swing Gate</span>
+            <h3>Swing Gates</h3>
+            <p>Elegant swing barrier gates for lobbies — fast operation with anti-tailgating sensors.</p>
+          </div>
+        </div>
+
+        <div class="prod-card reveal" data-cat="gate">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/Flap_Barriers.product.jpg" alt="Flap Barrier"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Flap Barrier</span>
+            <h3>Flap Barriers</h3>
+            <p>Ultra-fast flap barriers for high-throughput pedestrian access — sleek design, silent operation.</p>
+          </div>
+        </div>
+
+        <div class="prod-card reveal" data-cat="gate">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/Parking_&_Toll_Barriers.product.jpg" alt="Parking Barrier"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Vehicle</span>
+            <h3>Parking &amp; Toll Barriers</h3>
+            <p>Boom barriers for vehicle entry/exit with ANPR integration and loop detector support.</p>
+          </div>
+        </div>
+
+        <div class="prod-card reveal" data-cat="gate">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/Traffic_Bollards.product.jpg" alt="Bollard"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Anti-Ram</span>
+            <h3>Traffic Bollards</h3>
+            <p>Automatic rising bollards to prevent unauthorized vehicle access to pedestrian or VIP zones.</p>
+          </div>
+        </div>
+
+        <div class="prod-card reveal" data-cat="gate">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/Spike_Barriers.product.jpg" alt="Spike Barrier"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Road Security</span>
+            <h3>Spike Barriers</h3>
+            <p>Heavy-duty road spikes for unidirectional vehicle flow control in parking lots and restricted zones.</p>
+          </div>
+        </div>
+
+        <!-- DETECTION -->
+        <div class="prod-card reveal" data-cat="detection">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/Door_Frame_Metal_Detectors.product.jpg" alt="Metal Detector"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Detection</span>
+            <h3>Door Frame Metal Detectors</h3>
+            <p>Walk-through metal detection archways with multi-zone sensitivity for security checkpoints.</p>
+          </div>
+        </div>
+
+        <div class="prod-card reveal" data-cat="detection">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/X-Ray_Baggage_Scanners.product.jpg" alt="X-Ray Scanner"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Screening</span>
+            <h3>X-Ray Baggage Scanners</h3>
+            <p>High-resolution X-ray screening for baggage at airports, courts, hotels and corporate entries.</p>
+          </div>
+        </div>
+
+        <div class="prod-card reveal" data-cat="detection">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/Explosive_&_Narcotics_Detector.product.jpg" alt="Explosive Detector"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Threat Detection</span>
+            <h3>Explosive &amp; Narcotics Detector</h3>
+            <p>Trace detection technology for identifying explosive residue and narcotics at critical entry points.</p>
+          </div>
+        </div>
+
+        <div class="prod-card reveal" data-cat="detection">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/Hand-Held_Metal_Detector.product.jpg" alt="Hand Metal Detector"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Portable</span>
+            <h3>Hand-Held Metal Detector</h3>
+            <p>Ergonomic wand detectors for secondary screening — lightweight with high sensitivity alerts.</p>
+          </div>
+        </div>
+
+        <!-- SURVEILLANCE -->
+        <div class="prod-card reveal" data-cat="surveillance">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/ANPR_Camera.product.jpg" alt="ANPR Camera"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Surveillance</span>
+            <h3>ANPR Camera</h3>
+            <p>Automatic Number Plate Recognition for vehicle tracking, parking management and access logging.</p>
+          </div>
+        </div>
+
+        <!--CCTV-->
+        <div class="prod-card reveal" data-cat="surveillance">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/cctv.product.jpg" alt="CCTV Camera"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">CCTV</span>
+            <h3>CCTV Camera</h3>
+            <p>High-definition surveillance systems with real-time monitoring, remote viewing, and intelligent security alerts.</p>
+          </div>
+        </div>
+
+        <!-- fire safety -->
+        <div class="prod-card reveal" data-cat="Fire Safety ">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/CLIENTELE/firesafety.product.jpg" alt="Fire Safety"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Fire Safety</span>
+            <h3>Fire Safety</h3>
+            <p>Reliable fire detection and suppression systems designed to protect people, property, and critical infrastructure.</p>
+          </div>
+        </div>
+
+        <!-- Audio visual system -->
+        <div class="prod-card reveal" data-cat="Audio Visual System ">
+          <div class="prod-img-wrap">
+            <img class="prod-img" src="/Images/Product_Image/audio.visual.product.jpg" alt="Audio Visual System"/>
+          </div>
+          <div class="prod-body">
+            <span class="tag">Audio Visual System</span>
+            <h3>Audio Visual System</h3>
+            <p>Integrated audio visual solutions for clear communication, professional presentations, and enhanced user experiences.</p>
+          </div>
+        </div>
+
+      </div><!-- end prod-grid -->
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="inner-cta reveal">
+    <div class="container">
+      <div class="cta-strip">
+        <div class="cta-strip-glow"></div>
+        <h3>Need a custom product configuration?</h3>
+        <p>Our team will design the right solution for your exact security requirements.</p>
+        <a href="contact.html" class="btn-primary">Request a Quote →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><div class="logo-hex">EIS</div>ENHANCE IT<span class="ac">SYSTEM</span></a>
+          <p>India's trusted partner for intelligent security infrastructure.</p>
+        </div>
+        <div class="footer-col"><h4>Products</h4><ul>
+          <li><a href="products.html">Biometric Devices</a></li>
+          <li><a href="products.html">Gates &amp; Barriers</a></li>
+          <li><a href="products.html">Metal Detectors</a></li>
+          <li><a href="products.html">ANPR Cameras</a></li>
+        </ul></div>
+        <div class="footer-col"><h4>Solutions</h4><ul>
+          <li><a href="solutions.html">Time &amp; Attendance</a></li>
+          <li><a href="solutions.html">Visitor Management</a></li>
+          <li><a href="solutions.html">Cloud Platform</a></li>
+        </ul></div>
+        <div class="footer-col"><h4>Company</h4><ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul></div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 ENHANCE IT SYSTEM. All rights reserved.</p>
+        <div class="footer-socials"><a href="#">in</a><a href="#">𝕏</a><a href="#">▶</a></div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

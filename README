@@ -1,0 +1,31 @@
+# Enhance IT System — Security Infrastructure Website
+
+A responsive, multi-page marketing website built for **Enhance IT System (EIS)**, 
+a security products company specializing in biometric access control and 
+perimeter security solutions for enterprises, institutions, and critical infrastructure.
+
+## Features
+- 🌗 Dark/Light theme toggle
+- 🎬 Smooth page transitions & scroll-reveal animations
+- 🔍 Filterable product grid across 5 categories:
+  - Biometric Access Control
+  - Gates & Barriers
+  - Detection
+  - Surveillance
+  - Smart Locks
+- 📄 Multi-page structure: Home, About, Products, Solutions, Contact
+- 📬 Contact form integration (Web3Forms)
+- 📱 Fully responsive design
+
+## Pages
+- `index.html` — Home / hero landing page
+- `about.html` — Company overview
+- `products.html` — Product catalog with filtering
+- `solutions.html` — Industry solutions (Time & Attendance, Visitor Management, Parking, Cloud Platform)
+- `contact.html` — Contact form & inquiry
+
+## Tech Stack
+HTML, CSS, JavaScript
+
+## Industries Served
+Banking, Healthcare, Aviation, Education, Government, Manufacturing
