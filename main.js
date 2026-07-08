@@ -23,11 +23,11 @@
 
 // ── THEME (dark / light) ──
 (function () {
-  let stored = 'dark';
+  let stored = 'light';
   try {
-    stored = localStorage.getItem('st-theme') || 'dark';
+    stored = localStorage.getItem('st-theme') || 'light';
   } catch (e) {
-    console.warn('localStorage unavailable, defaulting to dark theme.', e);
+    console.warn('localStorage unavailable, defaulting to light theme.', e);
   }
   if (stored === 'light') document.body.classList.add('light');
 

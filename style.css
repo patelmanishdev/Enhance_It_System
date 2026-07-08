@@ -113,16 +113,24 @@ img { display: block; max-width: 100%; }
   color: var(--text);
 }
 .logo-hex {
-  width: 34px; height: 34px;
-  background: var(--accent);
-  clip-path: polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);
+  /* width: 40px; height: 40px; */
+  /* background: var(--accent); */
+  /* clip-path: polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%); */
+  
+  clip-path: circle(100%);
   display: flex; align-items: center; justify-content: center;
   font-size: 0.8rem; color: #000; font-weight: 900;
   flex-shrink: 0;
-  animation: spin 12s linear infinite;
+  /* animation: spin 12s linear infinite; */
+  margin-right: none;
 }
 @keyframes spin { to { transform: rotate(360deg); } }
 .logo span.ac { color: var(--accent); }
+
+.logo{
+  border-radius: 50%;
+  height: 40px;
+}
 
 .nav-links {
   display: flex;
@@ -267,6 +275,9 @@ body.light .theme-toggle::before { transform: translateX(20px); background: #f59
   margin-bottom: 14px;
   color: var(--text);
 }
+
+
+
 .section-sub {
   color: var(--muted);
   font-size: clamp(0.9rem, 2vw, 1rem);
